@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A70B3712893BADC002A95BA /* swiftui_conditional_overlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70B3702893BADC002A95BA /* swiftui_conditional_overlayApp.swift */; };
+		0A70B3732893BADC002A95BA /* SingleOverlayUsingDefaultModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70B3722893BADC002A95BA /* SingleOverlayUsingDefaultModifier.swift */; };
+		0A70B3752893BADE002A95BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70B3742893BADE002A95BA /* Assets.xcassets */; };
+		0A70B3782893BADE002A95BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A70B3772893BADE002A95BA /* Preview Assets.xcassets */; };
+		0AF77385289A2AB300E03E4C /* EntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF77384289A2AB300E03E4C /* EntryView.swift */; };
+		0AF77387289A2F3400E03E4C /* View+IfViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF77386289A2F3400E03E4C /* View+IfViewBuilder.swift */; };
+		0AF77389289A2F5500E03E4C /* SingleOverlayUsingIfModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF77388289A2F5500E03E4C /* SingleOverlayUsingIfModifier.swift */; };
+		0AF7738B289A312300E03E4C /* MultipleOverlayUsingIfModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7738A289A312300E03E4C /* MultipleOverlayUsingIfModifier.swift */; };
+		0AF7738D289A32A200E03E4C /* MultipleOverlayUsingAnyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7738C289A32A200E03E4C /* MultipleOverlayUsingAnyView.swift */; };
+		0AF7738F289A434600E03E4C /* MultipleOverlayUsingOverlayAndViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7738E289A434600E03E4C /* MultipleOverlayUsingOverlayAndViewBuilder.swift */; };
+		0AFDAFA32893C3EF0025C75E /* MultipleOverlayUsingDefaultModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AFDAFA22893C3EF0025C75E /* MultipleOverlayUsingDefaultModifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A70B36D2893BADC002A95BA /* swiftui-conditional-overlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-conditional-overlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A70B3702893BADC002A95BA /* swiftui_conditional_overlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftui_conditional_overlayApp.swift; sourceTree = "<group>"; };
+		0A70B3722893BADC002A95BA /* SingleOverlayUsingDefaultModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOverlayUsingDefaultModifier.swift; sourceTree = "<group>"; };
+		0A70B3742893BADE002A95BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A70B3772893BADE002A95BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0AF77384289A2AB300E03E4C /* EntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryView.swift; sourceTree = "<group>"; };
+		0AF77386289A2F3400E03E4C /* View+IfViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+IfViewBuilder.swift"; sourceTree = "<group>"; };
+		0AF77388289A2F5500E03E4C /* SingleOverlayUsingIfModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleOverlayUsingIfModifier.swift; sourceTree = "<group>"; };
+		0AF7738A289A312300E03E4C /* MultipleOverlayUsingIfModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOverlayUsingIfModifier.swift; sourceTree = "<group>"; };
+		0AF7738C289A32A200E03E4C /* MultipleOverlayUsingAnyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOverlayUsingAnyView.swift; sourceTree = "<group>"; };
+		0AF7738E289A434600E03E4C /* MultipleOverlayUsingOverlayAndViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOverlayUsingOverlayAndViewBuilder.swift; sourceTree = "<group>"; };
+		0AFDAFA22893C3EF0025C75E /* MultipleOverlayUsingDefaultModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleOverlayUsingDefaultModifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A70B36A2893BADC002A95BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A70B3642893BADC002A95BA = {
+			isa = PBXGroup;
+			children = (
+				0A70B36F2893BADC002A95BA /* swiftui-conditional-overlay */,
+				0A70B36E2893BADC002A95BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A70B36E2893BADC002A95BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A70B36D2893BADC002A95BA /* swiftui-conditional-overlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A70B36F2893BADC002A95BA /* swiftui-conditional-overlay */ = {
+			isa = PBXGroup;
+			children = (
+				0A70B3702893BADC002A95BA /* swiftui_conditional_overlayApp.swift */,
+				0AF77384289A2AB300E03E4C /* EntryView.swift */,
+				0A70B3722893BADC002A95BA /* SingleOverlayUsingDefaultModifier.swift */,
+				0AF77388289A2F5500E03E4C /* SingleOverlayUsingIfModifier.swift */,
+				0AFDAFA22893C3EF0025C75E /* MultipleOverlayUsingDefaultModifier.swift */,
+				0AF7738C289A32A200E03E4C /* MultipleOverlayUsingAnyView.swift */,
+				0AF7738E289A434600E03E4C /* MultipleOverlayUsingOverlayAndViewBuilder.swift */,
+				0AF7738A289A312300E03E4C /* MultipleOverlayUsingIfModifier.swift */,
+				0A70B3742893BADE002A95BA /* Assets.xcassets */,
+				0A70B3762893BADE002A95BA /* Preview Content */,
+				0AF77386289A2F3400E03E4C /* View+IfViewBuilder.swift */,
+			);
+			path = "swiftui-conditional-overlay";
+			sourceTree = "<group>";
+		};
+		0A70B3762893BADE002A95BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A70B3772893BADE002A95BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A70B36C2893BADC002A95BA /* swiftui-conditional-overlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A70B37B2893BADE002A95BA /* Build configuration list for PBXNativeTarget "swiftui-conditional-overlay" */;
+			buildPhases = (
+				0A70B3692893BADC002A95BA /* Sources */,
+				0A70B36A2893BADC002A95BA /* Frameworks */,
+				0A70B36B2893BADC002A95BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swiftui-conditional-overlay";
+			productName = "swiftui-conditional-overlay";
+			productReference = 0A70B36D2893BADC002A95BA /* swiftui-conditional-overlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A70B3652893BADC002A95BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					0A70B36C2893BADC002A95BA = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 0A70B3682893BADC002A95BA /* Build configuration list for PBXProject "swiftui-conditional-overlay" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A70B3642893BADC002A95BA;
+			productRefGroup = 0A70B36E2893BADC002A95BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A70B36C2893BADC002A95BA /* swiftui-conditional-overlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A70B36B2893BADC002A95BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A70B3782893BADE002A95BA /* Preview Assets.xcassets in Resources */,
+				0A70B3752893BADE002A95BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A70B3692893BADC002A95BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AFDAFA32893C3EF0025C75E /* MultipleOverlayUsingDefaultModifier.swift in Sources */,
+				0AF7738D289A32A200E03E4C /* MultipleOverlayUsingAnyView.swift in Sources */,
+				0AF77389289A2F5500E03E4C /* SingleOverlayUsingIfModifier.swift in Sources */,
+				0AF7738B289A312300E03E4C /* MultipleOverlayUsingIfModifier.swift in Sources */,
+				0A70B3732893BADC002A95BA /* SingleOverlayUsingDefaultModifier.swift in Sources */,
+				0AF77387289A2F3400E03E4C /* View+IfViewBuilder.swift in Sources */,
+				0AF7738F289A434600E03E4C /* MultipleOverlayUsingOverlayAndViewBuilder.swift in Sources */,
+				0A70B3712893BADC002A95BA /* swiftui_conditional_overlayApp.swift in Sources */,
+				0AF77385289A2AB300E03E4C /* EntryView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0A70B3792893BADE002A95BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A70B37A2893BADE002A95BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A70B37C2893BADE002A95BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-conditional-overlay/Preview Content\"";
+				DEVELOPMENT_TEAM = XDK8PAF43U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rea-group.swiftui-conditional-overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A70B37D2893BADE002A95BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"swiftui-conditional-overlay/Preview Content\"";
+				DEVELOPMENT_TEAM = XDK8PAF43U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rea-group.swiftui-conditional-overlay";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A70B3682893BADC002A95BA /* Build configuration list for PBXProject "swiftui-conditional-overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A70B3792893BADE002A95BA /* Debug */,
+				0A70B37A2893BADE002A95BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A70B37B2893BADE002A95BA /* Build configuration list for PBXNativeTarget "swiftui-conditional-overlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A70B37C2893BADE002A95BA /* Debug */,
+				0A70B37D2893BADE002A95BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A70B3652893BADC002A95BA /* Project object */;
+}
